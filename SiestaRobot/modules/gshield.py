@@ -9,10 +9,9 @@ from better_profanity import profanity
 from google_trans_new import google_translator
 from telethon import events
 from telethon.tl.types import ChatBannedRights
-from SiestaRobot.confing import get_int_key, get_str_key
+from SiestaRobot.mongo import db
 from SiestaRobot.services.telethonbasics import is_admin
 from SiestaRobot.events import register
-from pymongo import MongoClient
 from SiestaRobot.modules.sql.nsfw_watch_sql import (
     add_nsfwatch,
     get_all_nsfw_enabled_chat,
@@ -23,12 +22,6 @@ from SiestaRobot import telethn as tbot, MONGO_DB_URI, BOT_ID
 
 translator = google_translator()
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
-
-MONGO_DB_URI = get_str_key("MONGO_DB_URI")
-
-client = MongoClient()
-client = MongoClient(MONGO_DB_URI)
-db = client["LaylaRobot"]
 
 async def is_nsfw(event):
     lmao = event
