@@ -33,14 +33,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 from pyrogram.types import Message
 
 from SiestaRobot import aiohttpsession as aiosession
-from SiestaRobot.ex_plugins.dbfunctions import start_restart_stage
 from SiestaRobot.utils.http import get, post
-
-
-async def restart(m: Message):
-    if m:
-        await start_restart_stage(m.chat.id, m.message_id)
-    execvp(executable, [executable, "-m", "NaoRobot"])
 
 
 def generate_captcha():
