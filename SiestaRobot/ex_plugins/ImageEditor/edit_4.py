@@ -8,9 +8,7 @@ import numpy as np
 import requests
 from PIL import Image, ImageDraw, ImageOps
 
-from SiestaRobot.confing import get_str_key
-
-RemoveBG_API = get_str_key("REM_BG_API_KEY", required=False)
+from SiestaRobot import REM_BG_API_KEY as RemoveBG_API
 
 
 async def rotate_90(client, message):
