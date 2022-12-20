@@ -8,7 +8,7 @@ from pyrogram import filters
 from aiohttp import ClientSession
 from SiestaRobot import BOT_USERNAME as bu
 from SiestaRobot import BOT_ID, pbot, arq
-from SiestaRobot.ex_plugins.chatbot import add_chat, get_session, remove_chat
+from SiestaRobot.ex_plugins.dbfunctions import add_chat, get_session, remove_chat
 from SiestaRobot.utils.pluginhelper import admins_only, edit_or_reply
 from SiestaRobot.modules.language import gs
 
