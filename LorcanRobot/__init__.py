@@ -38,9 +38,9 @@ logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
 LOGGER = logging.getLogger('[LorcanRobot]')
-LOGGER.info("Lorcan is starting. | An Shiinobu Project Parts. | Licensed under GPLv3.")
+LOGGER.info("Lorcan is starting. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
-LOGGER.info("Project maintained by: github.com/shiinobu (t.me/saint_foire)")
+LOGGER.info("Project maintained by : github.com/EDWARD-ELRIC")
 
 # if version < 3.9, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 9:
