@@ -44,7 +44,7 @@ async def repo(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://github.com/shiinobu/LorcanRobot"), 
+                        "Repo", url="https://github.com/EDWARD-ELRIC/LorcanRobot"), 
                     InlineKeyboardButton(
                         "Support", url="https://t.me/machinaxsupport")
                 ]

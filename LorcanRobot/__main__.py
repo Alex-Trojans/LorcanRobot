@@ -478,7 +478,7 @@ def Lorcan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Vain", url="https://github.com/shiinobu"),
+                        InlineKeyboardButton(text="Vain", url="https://github.com/EDWARD-ELRIC"),
                     ],
                     [
                         InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
