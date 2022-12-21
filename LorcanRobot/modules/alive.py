@@ -9,16 +9,16 @@ from LorcanRobot.events import register
 from LorcanRobot import telethn as tbot, BOT_USERNAME
 
 
-PHOTO = "https://telegra.ph/file/ff2fa22dfa6ae838cc6cd.jpg"
+PHOTO = ""
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Lorcan Robot.** \n\n"
-  TEXT += "💠 **I'm Working Properly** \n\n"
-  TEXT += f"💠 **My Master : [Vain](https://t.me/saint_foire)** \n\n"
-  TEXT += f"💠 **Library Version :** `{telever}` \n\n"
-  TEXT += f"💠 **Telethon Version :** `{tlhver}` \n\n"
-  TEXT += f"💠 **Pyrogram Version :** `{pyrover}` \n\n"
-  TEXT += "**Thanks For Adding Me Here ❤️**"
+  TEXT = f"**Hᴇʏ [{event.sender.first_name}](tg://user?id={event.sender.id}), I'ᴍ Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ.** \n\n"
+  TEXT += " **I'ᴍ Wᴏʀᴋɪɴɢ Pʀᴏᴘᴇʀʟʏ** \n\n"
+  TEXT += f"❂ **Mʏ Fᴀᴛʜᴇʀ : [ᴇᴅᴡᴀʀᴅ ᴇʟʀɪᴄ ](https://t.me/lI_EDWARD_Il)** \n\n"
+  TEXT += f"❂ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{telever}` \n\n"
+  TEXT += f"❂ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
+  TEXT += f"❂ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pyrover}` \n\n"
+  TEXT += "** Tʜᴀɴᴋs Fᴏʀ Aᴅᴅɪɴɢ Mᴇ Dᴇᴀʀ🍷**"
   BUTTON = [[Button.url("Help", f"https://t.me/{BOT_USERNAME}?start=help"), Button.url("Support", "https://t.me/machinaxsupport")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
