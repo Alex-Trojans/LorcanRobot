@@ -11,19 +11,19 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
 
-    API_ID = 123456
-    API_HASH = "awoo"
+    API_ID = 
+    API_HASH = ""
     ARQ_API_KEY = ""
     ARQ_API_URL = ""
-    TOKEN = "BOT_TOKEN"
+    TOKEN = ""
     ALLOW_CHATS = True
 
-    OWNER_ID = 945137470
+    OWNER_ID = 
     OWNER_USERNAME = ""
     SUPPORT_CHAT = ""
-    JOIN_LOGGER = (-1001180007354)  
-    EVENT_LOGS = (-1001237968047)  
-    ERROR_LOGS = (-1001732618654)
+    JOIN_LOGGER = ()  
+    EVENT_LOGS = ()  
+    ERROR_LOGS = ()
 
     # RECOMMENDED
     MONGO_DB_URI = ""
@@ -58,10 +58,7 @@ class Config(object):
     TEMP_DOWNLOAD_DIRECTORY = "./"
     HEROKU_APP_NAME = None
     HEROKU_API_KEY = None
-    SESSION_STRING = ""
-    STRING_SESSION = ""
     INFOPIC = True
-    BOT_USERNAME = ""
     TIME_API_KEY = "awoo"
     WALL_API = "awoo"
     BL_CHATS = []
