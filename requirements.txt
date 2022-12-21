@@ -26,10 +26,8 @@ CurrencyConverter
 google_images_download
 google-api-python-client
 googletrans==4.0.0-rc1
-google-trans-new==1.1.9
 jikanpy
 speedtest-cli
-coffeehouse
 regex
 bleach
 wikipedia
@@ -47,7 +45,7 @@ pygithub
 TgCrypto
 pyrogram==1.4.16
 PyDictionary
-git+https://github.com/Sorrybabe/downloader
+yt-dlp
 youtube_search_python
 youtube_search
 lyrics_extractor
@@ -62,8 +60,6 @@ emoji-country-flag
 countryinfo
 html2text
 bs4
-redis
-pySmartDL
 bing_image_downloader
 search_engine_parser
 pytz
@@ -71,7 +67,6 @@ jikanpy
 tswift
 python-arq
 envparse
-#profanity (Credits to Julia)
 better_profanity
 textblob 
 nudepy
@@ -86,5 +81,5 @@ pendulum
 fuzzysearch
 img2pdf
 multicolorcaptcha
-git+https://github.com/TotallyNotChase/glitch-this.git
+glitch-this
 pyYAML>=5.1.2
