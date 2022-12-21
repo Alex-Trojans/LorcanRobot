@@ -1,5 +1,5 @@
 {
-      "name": "Siesta Robot",
+      "name": "Lorcan Robot",
       "description": "A Powerful Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -10,7 +10,7 @@
       ],
     
    "logo":    "https://telegra.ph/file/566d0f3fb2107bd8ecb27.jpg",  
-   "repository": "https://github.com/shiinobu/https://github.com/shiinobu/SiestaRobot",
+   "repository": "https://github.com/shiinobu/https://github.com/shiinobu/LorcanRobot",
    "addons": [
           {
          "options": {
@@ -63,7 +63,7 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "siestaxbot"
+         "value": "Lorcanbot"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
