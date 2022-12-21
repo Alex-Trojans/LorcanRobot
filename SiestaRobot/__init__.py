@@ -12,7 +12,6 @@ from inspect import getfullargspec
 from aiohttp import ClientSession
 from Python_ARQ import ARQ
 from telethon import TelegramClient
-from telethon.sessions import StringSession
 from telethon.sessions import MemorySession
 from pyrogram.types import Message
 from pyrogram import Client, errors
@@ -210,14 +209,7 @@ else:
 
 # If you forking dont remove this id, just add your id. LOL...
 
-DRAGONS.add(OWNER_ID)
-DRAGONS.add(2088106582)
-DRAGONS.add(945137470)
-DRAGONS.add(5099853374)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(2088106582)
-DEV_USERS.add(945137470)
-DEV_USERS.add(5099853374)
 
 if not SPAMWATCH_API:
     sw = None
@@ -244,13 +236,6 @@ aiohttpsession = ClientSession()
 # ARQ Client
 print("[INFO]: INITIALIZING ARQ CLIENT")
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
-
-ubot2 = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
-try:
-    ubot2.start()
-except BaseException:
-    print("Userbot Error ! Have you added a STRING_SESSION in deploying??")
-#    sys.exit(1)
 
 pbot = Client(
     ":memory:",
