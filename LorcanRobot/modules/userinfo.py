@@ -448,9 +448,9 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>╔═━「 Current Lorcan Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "<b>╔═━「 Lᴏʀᴄᴀɴ Sᴛᴀᴛɪsᴛɪᴄs 」━═</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By EDWARD-ELRIC 」</b>"
+    result += "\n<b>╘═━「 Pᴏᴡᴇʀᴇᴅ Bʏ Lᴏʀᴄᴀɴ 」━═</b>"
     update.effective_message.reply_text(
         result,
         parse_mode=ParseMode.HTML, 
