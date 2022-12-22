@@ -94,27 +94,27 @@ async def profanity(event):
     if not input:
         if is_nightmode_indb(str(event.chat_id)):
                 await event.reply(
-                    "Currently NightMode is Enabled for this Chat"
+                    "Cᴜʀʀᴇɴᴛʟʏ NɪɢʜᴛMᴏᴅᴇ ɪs Eɴᴀʙʟᴇᴅ ғᴏʀ ᴛʜɪs Cʜᴀᴛ"
                 )
                 return
         await event.reply(
-            "Currently NightMode is Disabled for this Chat"
+            "Cᴜʀʀᴇɴᴛʟʏ NɪɢʜᴛMᴏᴅᴇ ɪs Dɪsᴀʙʟᴇᴅ ғᴏʀ ᴛʜɪs Cʜᴀᴛ"
         )
         return
     if "on" in input:
         if event.is_group:
             if is_nightmode_indb(str(event.chat_id)):
                     await event.reply(
-                        "Night Mode is Already Turned ON for this Chat"
+                        "Nɪɢʜᴛ Mᴏᴅᴇ ɪs Aʟʀᴇᴀᴅʏ Tᴜʀɴᴇᴅ ON ғᴏʀ ᴛʜɪs Cʜᴀᴛ"
                     )
                     return
             add_nightmode(str(event.chat_id))
-            await event.reply("NightMode turned on for this chat.")
+            await event.reply("NɪɢʜᴛMᴏᴅᴇ ᴛᴜʀɴᴇᴅ ᴏɴ ғᴏʀ ᴛʜɪs ᴄʜᴀᴛ.")
     if "off" in input:
         if event.is_group:
             if not is_nightmode_indb(str(event.chat_id)):
                     await event.reply(
-                        "Night Mode is Already Off for this Chat"
+                        "Nɪɢʜᴛ Mᴏᴅᴇ ɪs Aʟʀᴇᴀᴅʏ Oғғ ғᴏʀ ᴛʜɪs Cʜᴀᴛ"
                     )
                     return
         rmnightmode(str(event.chat_id))
@@ -131,7 +131,7 @@ async def job_close():
     for pro in chats:
         try:
             await tbot.send_message(
-              int(pro.chat_id), "12:00 Am, Group Is Closing Till 6 Am. Night Mode Started ! \n**Powered By @emiexrobot**"
+              int(pro.chat_id), "12:00 Aᴍ, Gʀᴏᴜᴘ Is Cʟᴏsɪɴɢ Tɪʟʟ 6 Aᴍ. Nɪɢʜᴛ Mᴏᴅᴇ Sᴛᴀʀᴛᴇᴅ ! \n**Pᴏᴡᴇʀᴅ Bʏ @LORCAN_x_ROBOT**"
             )
             await tbot(
             functions.messages.EditChatDefaultBannedRightsRequest(
@@ -153,7 +153,7 @@ async def job_open():
     for pro in chats:
         try:
             await tbot.send_message(
-              int(pro.chat_id), "06:00 Am, Group Is Opening.\n**Powered By @emiexrobot**"
+              int(pro.chat_id), "06:00 Aᴍ, Gʀᴏᴜᴘ Is Oᴘᴇɴɪɴɢ.\n**Pᴏᴡᴇʀᴅ Bʏ @LORCAN_x_ROBOT **"
             )
             await tbot(
             functions.messages.EditChatDefaultBannedRightsRequest(
