@@ -1,5 +1,5 @@
 <h2 align="center">
-    ╔═❂ Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ Is A Mᴏᴅᴜʟᴇʀ Bᴏᴛ Wɪᴛʜ Aɴɪᴍᴇ Tʜᴇᴍᴇ Aɴᴅ  Bᴇsᴛ Fᴇᴀᴛᴜʀᴇs ❂═╗
+    ──「Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ Is A Mᴏᴅᴜʟᴇʀ Bᴏᴛ Wɪᴛʜ Aɴɪᴍᴇ Tʜᴇᴍᴇ Aɴᴅ  Bᴇsᴛ Fᴇᴀᴛᴜʀᴇs」──
 </h2>
 
 <p align="center">
