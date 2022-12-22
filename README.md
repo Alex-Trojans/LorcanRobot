@@ -35,8 +35,8 @@
 
 <p align="center">
 <a href="https://t.me/saint_foire"> <img src="https://img.shields.io/badge/Vain-User-green?style=for-the-badge&logo=telegram" alt="Vain on Telegram" /> </a>
-<a href="https://t.me/machinaxsupport"> <img src="https://img.shields.io/badge/Support-Chat-green?style=for-the-badge&logo=telegram" alt="Support Chat" /> </a>
-<a href="https://t.me/machinaxupdate"> <img src="https://img.shields.io/badge/Update-Channel-green?style=for-the-badge&logo=telegram" alt="Update Channel" /> </a>
+<a href="https://t.me/LORCAN_X_SUPPORT"> <img src="https://img.shields.io/badge/Support-Chat-green?style=for-the-badge&logo=telegram" alt="Support Chat" /> </a>
+<a href="https://t.me/LORCAN_X_UPDATES"> <img src="https://img.shields.io/badge/Update-Channel-green?style=for-the-badge&logo=telegram" alt="Update Channel" /> </a>
 </p>
 
 <h2 align="center">
