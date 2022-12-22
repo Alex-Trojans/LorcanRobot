@@ -84,12 +84,12 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-Lorcan_IMG = "https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg"
+Lorcan_IMG = "https://telegra.ph/file/f0bc69104d568bc78f754.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @saint_foire \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+DONATE_STRING = """Hᴇʏ, Gʟᴀᴅ Tᴏ Hᴇᴀʀ Yᴏᴜ Wᴀɴᴛ Tᴏ Dᴏɴᴀᴛᴇ!
+ Yᴏᴜ Cᴀɴ Sᴜᴘᴘᴏʀᴛ Tʜᴇ Pʀᴏᴊᴇᴄᴛ Bʏ Cᴏɴᴛᴀᴄᴛɪɴɢ @lI_EDWARD_Il 🍷 \
+ Sᴜᴘᴘᴏʀᴛɪɴɢ Isɴ'ᴛ Aʟᴡᴀʏs Fɪɴᴀɴᴄɪᴀʟ! \
+ Tʜᴏsᴇ Wʜᴏ Cᴀɴɴᴏᴛ Pʀᴏᴠɪᴅᴇ Mᴏɴᴇᴛᴀʀʏ Sᴜᴘᴘᴏʀᴛ Aʀᴇ Wᴇʟᴄᴏᴍᴇ Tᴏ Hᴇʟᴘ Us Dᴇᴠᴇʟᴏᴘ Tʜᴇ ʙᴏᴛ ᴀᴛ ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
