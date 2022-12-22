@@ -85,11 +85,11 @@ async def profanity(event):
     input = event.pattern_match.group(2)
     if not event.sender_id == OWNER_ID:
         if not await is_register_admin(event.input_chat, event.sender_id):
-           await event.reply("Only admins can execute this command!")
+           await event.reply("Oɴʟʏ Aᴅᴍɪɴs Cᴀɴ Exᴇᴄᴜᴛᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ!")
            return
         else:
           if not await can_change_info(message=event):
-            await event.reply("You are missing the following rights to use this command:CanChangeinfo")
+            await event.reply("Yᴏᴜ Aʀᴇ Mɪssɪɴɢ Tʜᴇ Fᴏʟʟᴏᴡɪɴɢ Rɪɢʜᴛs Tᴏ Usᴇ Tʜɪs Cᴏᴍᴍᴀɴᴅ: CᴀɴCʜᴀɴɢᴇɪɴғᴏ")
             return
     if not input:
         if is_nightmode_indb(str(event.chat_id)):
