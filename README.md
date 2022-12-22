@@ -1,5 +1,5 @@
 <h2 align="center">
-    ──「 Lorcan ROBOT IS A MODULAR BOT WITH ANIME THEME 」──
+    ╔═❂ Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ Is A Mᴏᴅᴜʟᴇʀ Bᴏᴛ Wɪᴛʜ Aɴɪᴍᴇ Tʜᴇᴍᴇ Aɴᴅ  Bᴇsᴛ Fᴇᴀᴛᴜʀᴇs ❂═╗
 </h2>
 
 <p align="center">
