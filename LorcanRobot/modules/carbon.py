@@ -24,29 +24,29 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-MEMEK = "https://telegra.ph/file/31c56fb53884915fec558.jpg"
+MEMEK = "https://telegra.ph/file/775c6cdc21cbd514ec92c.jpg"
 
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""✨ **Hey I'm Lorcan Robot** ✨ 
+        caption=f"""✨ **Hᴇʏ I'ᴍ Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ** ✨ 
 
-**Owner repo : [Vain](https://t.me/saint_foire)**
-**Python Version :** `{y()}`
-**Library Version :** `{o}`
-**Telethon Version :** `{s}`
-**Pyrogram Version :** `{z}`
+**Oᴡɴᴇʀ Rᴇᴘᴏ : [ᴇᴅᴡᴀʀᴅ ᴇʟʀɪᴄ ](https://t.me/lI_EDWARD_Il)**
+**Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{y()}`
+**Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{o}`
+**Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{s}`
+**Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{z}`
 
-**Create your own with click button bellow.**
+**ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴡɪᴛʜ ᴄʟɪᴄᴋ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ.🍷**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Repo", url="https://github.com/EDWARD-ELRIC/LorcanRobot"), 
+                        "♨️ ʀᴇᴘᴏ ♨️", url="https://github.com/EDWARD-ELRIC/LorcanRobot"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/machinaxsupport")
+                        "♨️ ᴇᴅᴡᴀʀᴅ ♨️", url="https://t.me/YOUR_EDWARD")
                 ]
             ]
         )
