@@ -307,19 +307,19 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nTʜɪs Usᴇʀ Is Mᴇᴍʙᴇʀ Oғ 'Pʀɪɴᴄᴇ'."
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThe Disaster level of this person is 'Emperor'."
+        text += "\n\n 'Emperor'."
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThe Disaster level of this person is 'Governor'."
+        text += "\n\nTʜᴇ Dɪsᴀsᴛᴇʀ Lᴇᴠᴇʟ Oғ Tʜɪs Pᴇʀsᴏɴ Is 'Governor'."
         disaster_level_present = True
     elif user.id in TIGERS:
-        text += "\n\nThe Disaster level of this person is 'Captain'."
+        text += "\n\nTʜᴇ Dɪsᴀsᴛᴇʀ Lᴇᴠᴇʟ Oғ Tʜɪs Pᴇʀsᴏɴ Is 'Captain'."
         disaster_level_present = True
     elif user.id in WOLVES:
-        text += "\n\nThe Disaster level of this person is 'Soldier'."
+        text += "\n\nTʜᴇ Dɪsᴀsᴛᴇʀ Lᴇᴠᴇʟ Oғ Tʜɪs Pᴇʀsᴏɴ Is 'Soldier'."
         disaster_level_present = True
     elif user.id == 1829047705:
-         text += "\n\nOwner Of A Bot. Queen Of @excrybaby. Bot Name Inspired From 'JoJo'."
+         text += "\n\nOᴡɴᴇʀ Oғ A Bᴏᴛ. SᴏN Oғ @lI_EDWARD_Il. Bᴏᴛ Nᴀᴍᴇ Iɴsᴘɪʀᴇᴅ Fʀᴏᴍ 'JᴏJᴏ'."
          disaster_level_present = True
 
     try:
@@ -356,9 +356,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/KennedyProject/44"),
+                                "• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/LORCAN_X_UPDATES"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/KennedyProject/43")
+                                "• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/LORCAN_X_SUPPORT")
                         ],
                     ]
                 ),
@@ -374,9 +374,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/KennedyProject/44"),
+                                "• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/LORCAN_X_UPDATES"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/KennedyProject/43")
+                                "• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/LORCAN_X_SUPPORT")
                         ],
                     ]
                 ),
