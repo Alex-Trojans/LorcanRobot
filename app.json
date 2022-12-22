@@ -9,7 +9,7 @@
          "naorobot"
       ],
     
-   "logo":    "https://telegra.ph/file/566d0f3fb2107bd8ecb27.jpg",  
+   "logo":    "https://telegra.ph/file/b91087e534f517e21a032.jpg.",  
    "repository": "https://github.com/EDWARD-ELRIC/https://github.com/EDWARD-ELRIC/LorcanRobot",
    "addons": [
           {
@@ -51,7 +51,7 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "945137470"
+         "value": ""
      },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
