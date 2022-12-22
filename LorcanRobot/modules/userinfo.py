@@ -257,21 +257,21 @@ def info(update: Update, context: CallbackContext):
     rep = message.reply_text("<code>Getting info...</code>", parse_mode=ParseMode.HTML)
 
     text = (
-        f"╔═━「<b> Appraisal results:</b> 」\n"
-        f"✪ ID: <code>{user.id}</code>\n"
-        f"✪ First Name: {html.escape(user.first_name)}"
+        f"═━「<b> Aᴘᴘʀᴀɪsᴀʟ Rᴇsᴜʟᴛs</b> 」━═\n"
+        f"✪ ɪᴅ: <code>{user.id}</code>\n"
+        f"✪ Fɪʀsᴛ Nᴀᴍᴇ: {html.escape(user.first_name)}"
     )
 
     if user.last_name:
-        text += f"\n✪ Last Name: {html.escape(user.last_name)}"
+        text += f"\n✪ Lᴀsᴛ Nᴀᴍᴇ: {html.escape(user.last_name)}"
 
     if user.username:
-        text += f"\n✪ Username: @{html.escape(user.username)}"
+        text += f"\n✪ Usᴇʀɴᴀᴍᴇ: @{html.escape(user.username)}"
 
-    text += f"\n✪ Userlink: {mention_html(user.id, 'link')}"
+    text += f"\n✪ Usᴇʀʟɪɴᴋ: {mention_html(user.id, 'link')}"
 
     if chat.type != "private" and user_id != bot.id:
-        _stext = "\n✪ Presence: <code>{}</code>"
+        _stext = "\n✪ Pʀᴇsᴇɴᴄᴇ: <code>{}</code>"
 
         afk_st = is_afk(user.id)
         if afk_st:
@@ -292,19 +292,19 @@ def info(update: Update, context: CallbackContext):
     try:
         spamwtc = sw.get_ban(int(user.id))
         if spamwtc:
-            text += "\n\n<b>This person is Spamwatched!</b>"
-            text += f"\nReason: <pre>{spamwtc.reason}</pre>"
-            text += "\nAppeal at @SpamWatchSupport"
+            text += "\n\n<b>Tʜɪs Pᴇʀsᴏɴ Is Sᴘᴀᴍᴡᴀᴛᴄʜᴇᴅ!</b>"
+            text += f"\nRᴇᴀsᴏɴ: <pre>{spamwtc.reason}</pre>"
+            text += "\nAᴘᴘᴇᴀʟ Aᴛ @lorcan_x_Support"
     except:
         pass  # don't crash if api is down somehow...
 
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThe Disaster level of this person is 'King'."
+        text += "\n\nTʜᴇ Dɪsᴀsᴛᴇʀ Lᴇᴠᴇʟ Oғ Tʜɪs Pᴇʀsᴏɴ Is 'Kɪɴɢ'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'Prince'."
+        text += "\n\nTʜɪs Usᴇʀ Is Mᴇᴍʙᴇʀ Oғ 'Pʀɪɴᴄᴇ'."
         disaster_level_present = True
     elif user.id in DRAGONS:
         text += "\n\nThe Disaster level of this person is 'Emperor'."
