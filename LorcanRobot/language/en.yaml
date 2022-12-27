@@ -95,7 +95,7 @@ inline_button: "Try inline!​​"
 
 # MODULES
 admin_help: |
-    ──「 Admins 」──
+    ──「 Aᴅᴍɪɴs  」──
 
     *User Commands*:
     ❂ /admins*:* list of admins in the chat
@@ -118,12 +118,12 @@ admin_help: |
     ❂ /setdesc*:* Set group description
     ❂ /setsticker*:* Set group sticker
 
-    *Rules*:
+    *Rᴜʟᴇs*:
     ❂ /rules*:* get the rules for this chat.
     ❂ /setrules <your rules here>*:* set the rules for this chat.
     ❂ /clearrules*:* clear the rules for this chat.
 anime_help: |
-    ──「 Anime Search 」──   
+    ──「 Aɴɪᴍᴇ Sᴇᴀʀᴄʜ 」──   
 
     ❂ /anime <anime>: returns information about the anime.
     ❂ /whatanime: returns source of anime when replied to photo or gif.                                                          
@@ -136,14 +136,14 @@ anime_help: |
     ❂ /kaizoku <anime>: search an anime on animekaizoku.com
     ❂ /kayo <anime>: search an anime on animekayo.com
 
-    ──「 Anime Quotes 」──
+    ──「 Aɴɪᴍᴇ Qᴜᴏᴛᴇs 」──
 
     ❂ /animequotes: for anime quotes randomly as photos.
     ❂ /quote: send quotes randomly as text
 antichannel_help: |
-    ──「 Anti-Channels 」──
+    ──「 Aɴᴛɪ-Cʜᴀɴɴᴇʟs 」──
 
-        ⚠️ WARNING ⚠️
+        ⚠️ Wᴀʀɴɪɴɢ ⚠️
 
     *IF YOU USE THIS MODE, THE RESULT IS IN THE GROUP FOREVER YOU CAN'T CHAT USING THE CHANNEL*
 
@@ -153,20 +153,20 @@ antichannel_help: |
     ❂ /antichannelmode <'on'/'yes'> *:* enables anti-channel-mode
     ❂ /antichannelmode <'off'/'no'> *:* disabled anti-channel-mode
 antiflood_help: |
-    ──「 Anti-Flood 」──
+    ──「 Aɴᴛɪ-Fʟᴏᴏᴅ 」──
 
     Antiflood allows you to take action on users that send more than x messages in a row. Exceeding the set flood \
     will result in restricting that user.
     This will mute users if they send more than 10 messages in a row, bots are ignored.
     ❂ `/flood`*:* Get the current flood control setting
 
-    *Admins only:*
+    *Aᴅᴍɪɴs Oɴʟʏ:*
 
     ❂ `/setflood <int/'no'/'off'>`*:* enables or disables flood control
     *Example:* `/setflood 10`
     ❂ `/setfloodmode <ban/kick/mute/tban/tmute> <value>`*:* Action to perform when user have exceeded flood limit. ban/kick/mute/tmute/tban
 
-    *Note:*
+    *Nᴏᴛᴇ:*
     Value must be filled for tban and tmute!!
     It can be:
     ➩ `5m` = 5 minutes
@@ -174,7 +174,7 @@ antiflood_help: |
     ➩ `3d` = 3 days
     ➩ `1w` = 1 week
 antispam_help: |
-    ──「 Anti-Spam 」──
+    ──「 Aɴᴛɪ-Sᴘᴀᴍ 」──
 
     *Admins only:*
     ❂ `/antispam <on/off/yes/no>`*:* Will toggle our antispam tech or return your current settings.
@@ -189,27 +189,27 @@ antispam_help: |
     Constantly help banning spammers off from your group automatically So, you wont have to worry about spammers storming your group.
     *Note:* Users can appeal spamwatch bans at @SpamwatchSupport
 approve_help: |
-    ──「 Aprroved 」──
+    ──「 Aᴘʀʀᴏᴠᴇᴅ 」──
 
     Sometimes, you might trust a user not to send unwanted content.
     Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
 
     That's what approvals are for - approve of trustworthy users to allow them to send
 
-    *Admin commands:*
+    *Aᴅᴍɪɴ Cᴏᴍᴍᴀɴᴅs:*
     ❂ /approval*:* Check a user's approval status in this chat.
     ❂ /approve*:* Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
     ❂ /unapprove*:* Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.
     ❂ /approved*:* List all approved users.
     ❂ /unapproveall*:* Unapprove *ALL* users in a chat. This cannot be undone.
 bansmutes_help: |
-    ──「 Bans / Mutes 」──
+    ──「 Bᴀɴs / Mᴜᴛᴇs 」──
 
-    *User Commands:*
+    *Usᴇʀ Cᴏᴍᴍᴀɴᴅs:*
 
     ❂ /kickme*:* kicks the user who issued the command
 
-    *Admins only:*
+    *Aᴅᴍɪɴs Oɴʟʏ:*
 
     ❂ /ban <userhandle>*:* bans a user. (via handle, or reply)
     ❂ /sban <userhandle>*:* Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
@@ -223,15 +223,15 @@ bansmutes_help: |
     ❂ /zombies clean*:* removes deleted accounts from the group.
     ❂ /snipe <chatid> <string>*:* Make me send a message to a specific chat.
 blacklist_help: |
-    ──「 Blacklist 」──
+    ──「 Bʟᴀᴄᴋʟɪsᴛ 」──
 
     Blacklists are used to stop certain triggers from being said in a group. Any time the trigger is mentioned, the message will immediately be deleted. A good combo is sometimes to pair this up with warn filters!
 
-    *NOTE*: Blacklists do not affect group admins.
+    *Nᴏᴛᴇ*: Bʟᴀᴄᴋʟɪsᴛs Dᴏ Nᴏᴛ Aғғᴇᴄᴛ Gʀᴏᴜᴘ Aᴅᴍɪɴs.
 
     ❂ /blacklist*:* View the current blacklisted words.
 
-    Admin only:
+    Aᴅᴍɪɴ Oɴʟʏ:
     ❂ /addblacklist <triggers>*:* Add a trigger to the blacklist. Each line is considered one trigger, so using different lines will allow you to add multiple triggers.
     ❂ /unblacklist <triggers>*:* Remove triggers from the blacklist. Same newline logic applies here, so you can remove multiple triggers at once.
     ❂ /blacklistmode <off/del/warn/ban/kick/mute/tban/tmute>*:* Action to perform when someone sends blacklisted words.
@@ -247,14 +247,14 @@ blacklist_help: |
     Note:
     ❂ <sticker link> can be `https://t.me/addstickers/<sticker>` or just `<sticker>` or reply to the sticker message
 chatbot_help: |
-    ──「 Chatbot AI 」──
+    ──「 Cʜᴀᴛʙᴏᴛ AI 」──
 
     Lorcan AI is the only ai system which can detect & reply upto 200 language's
 
     ❂ /chatbot [ON/OFF]: Enables and disables AI Chat mode.
     ❂ /chatbot EN : Enables English only chatbot.
 cleaner_help: |
-    ──「 Cleaner 」──
+    ──「 Cʟᴇᴀɴᴇʀ 」──
 
     Blue text cleaner removed any made up commands that people send in your chat.
 
@@ -268,7 +268,7 @@ cleaner_help: |
     ❂ /gignoreblue <word>*:* globally ignorea bluetext cleaning of saved word across Saitama.
     ❂ /ungignoreblue <word>*:* remove said command from global cleaning list
 connection_help: |
-    ──「 Connection 」──
+    ──「 Cᴏɴɴᴇᴄᴛɪᴏɴ 」──
 
     Sometimes, you just want to add some notes and filters to a group chat, but you don't want everyone to see; This is where connections come in...
     This allows you to connect to a chat's database, and add things to it without the commands appearing in chat! For obvious reasons, you need to be an admin to add things; but any member in the group can view your data.
@@ -278,15 +278,15 @@ connection_help: |
     ❂ /disconnect: Disconnect from a chat
     ❂ /helpconnect: List available commands that can be used remotely
 
-    *Admin only:*
+    *Aᴅᴍɪɴ Oɴʟʏ:*
 
     ❂ /allowconnect <yes/no>: allow a user to connect to a chat
 disabling_help: |
-    ──「 Disabling 」──
+    ──「 Dɪsᴀʙʟɪɴɢ  」──
 
     ❂ /cmds*:* check the current status of disabled commands
 
-    *Admins only:*
+    *Aᴅᴍɪɴs Oɴʟʏ:*
 
     ❂ /enable <cmd name>*:* enable that command
     ❂ /disable <cmd name>*:* disable that command
@@ -294,7 +294,7 @@ disabling_help: |
     ❂ /disablemodule <module name>*:* disable all commands in that module
     ❂ /listcmds*:* list all possible toggleable commands
 extras_help: |
-    ──「 Extras 」──
+    ──「 Exᴛʀᴀs 」──
 
     ❂ /markdownhelp*:* quick summary of how markdown works in telegram - can only be called in private chats
     ❂ /paste*:* Saves replied content to `nekobin.com` and replies with a url
@@ -306,13 +306,13 @@ extras_help: |
     ❂ /wall <query>*:* get a wallpaper from wall.alphacoders.com
     ❂ /cash*:* currency converter
 
-      Example:
+      Exᴀᴍᴘʟᴇ:
       ➩ `/cash 1 USD INR`  
             _OR_
       ➩ `/cash 1 usd inr`
          Output: `1.0 USD = 75.505 INR`
 MARKDOWN_HELP: |
-    ──「 Markdown Help 」──
+    ──「 Mᴀʀᴋᴅᴏᴡɴ Hᴇʟᴘ 」──
 
     Markdown is a very powerful formatting tool supported by telegram. {dispatcher.bot.first_name} has some enhancements, to make sure that \
     saved messages are correctly parsed, and to allow you to create buttons.
@@ -341,9 +341,9 @@ MARKDOWN_HELP_TEXT_2: |
     [URL](example.com) [button](buttonurl:github.com)
     [button2](buttonurl://google.com:same)
 fsub_feds_help: |
-    ──「 F-Subs / Feds 」──
+    ──「 F-Sᴜʙs / Fᴇᴅs 」──
 
-    *Force Subscribe:*
+    *Fᴏʀᴄᴇ Sᴜʙsᴄʀɪʙᴇ:*
 
     Lorcan can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 
@@ -374,7 +374,7 @@ fsub_feds_help: |
     ❂ `/fedadminhelp`*:* Provides help for fed administration commands
     ❂ `/feduserhelp`*:* Provides help for commands anyone can use
 FED_OWNER_HELP: | 
-    ──「 Feds 」──
+    ──「 Fᴇᴅs 」──
 
     *👑 Fed Owner Only:*
     ❂ `/newfed <fed_name>`*:* Creates a Federation, One allowed per user
@@ -389,7 +389,7 @@ FED_OWNER_HELP: |
     ❂ `/fbroadcast <message>`*:* Broadcasts a messages to all groups that have joined your fed
     ❂ `/fedsubs`*:* Shows the feds your group is subscribed to `(broken rn)`
 FED_ADMIN_HELP: |
-    ──「 Feds 」──
+    ──「 Fᴇᴅs 」──
 
     *🔱 Fed Admins:*
     ❂ `/fban <user> <reason>`*:* Fed bans a user
@@ -403,14 +403,14 @@ FED_ADMIN_HELP: |
     ❂ `/fedchats`*:* Get all the chats that are connected in the Federation
     ❂ `/chatfed `*:* See the Federation in the current chat\n
 FED_USER_HELP: | 
-    ──「 Feds 」──
+    ──「 Fᴇᴅs 」──
 
     *🎩 Any user:*
     ❂ /fbanstat*:* Shows if you/or the user you are replying to or their username is fbanned somewhere or not
     ❂ /fednotif <on/off>*:* Federation settings not in PM when there are users who are fbaned/unfbanned
     ❂ /frules*:* See Federation regulations\n
 filters_help: |
-    ──「 Filters 」──
+    ──「 Fɪʟᴛᴇʀs 」──
 
     ❂ /filters*:* List all active filters saved in the chat.
     *Admin only:*
@@ -435,7 +435,7 @@ filters_help: |
     *Note*: Filters also support markdown formatters like: {first}, {last} etc.. and buttons.
     Check /markdownhelp to know more!
 fun_help: |
-    ──「 Fun 」──
+    ──「 Fᴜɴ 」──
 
     ❂ /runs*:* reply a random string from an array of replies
     ❂ /slap*:* slap a user, or get slapped if not a reply
@@ -473,7 +473,7 @@ fun_help: |
     ❂ /latin <text>: latinify your text!
     ❂ /lined <text>: lined your text!
 greetings_help: |
-    ──「 Greetings 」──
+    ──「 Gʀᴇᴇᴛɪɴɢs 」──
 
     *Admins only:*
     ❂ /welcome <on/off>*:* enable/disable welcome messages.
@@ -492,7 +492,7 @@ greetings_help: |
     *Welcome markdown:*
     ❂ /welcomehelp*:* view more formatting information for custom welcome/goodbye messages.
 WELCOME_HELP_TEXT: |
-    ──「 Greetings Format Help 」──
+    ──「 Gʀᴇᴇᴛɪɴɢs Fᴏʀᴍᴀᴛ Hᴇʟᴘ 」──
 
     "Your group's welcome/goodbye messages can be personalised in multiple ways. If you want the messages"
     " to be individually generated, like the default welcome message is, you can use *these* variables:\n"
@@ -518,7 +518,7 @@ WELCOME_HELP_TEXT: |
     "You can even set images/gifs/videos/voice messages as the welcome message by "
     "replying to the desired media, and calling `/setwelcome`."
 WELCOME_MUTE_HELP_TEXT: |
-    ──「 Greetings Mute Format Help 」──
+    ──「 Gʀᴇᴇᴛɪɴɢs Mᴜᴛᴇ Fᴏʀᴍᴀᴛ Hᴇʟᴘ 」──
 
     "You can get the bot to mute new people who join your group and hence prevent spambots from flooding your group. "
     "The following options are possible:\n"
@@ -528,7 +528,7 @@ WELCOME_MUTE_HELP_TEXT: |
     "  ❂ `/welcomemute off`*:* turns off welcomemute.\n"
     "*Note:* Strong mode kicks a user from the chat if they dont verify in 120seconds. They can always rejoin though"
 info_and_afk_help: |
-    ──「 Info and AFK 」──
+    ──「 Iɴғᴏ Aɴᴅ AFK 」──
 
     *ID:*
     ❂ /id*:* get the current group id. If used by replying to a message, gets that user's id.
@@ -562,7 +562,7 @@ info_and_afk_help: |
     *What is that health thingy?*
     Come and see [HP System explained](https://t.me/KennedyProject/44)
 locks_help: |
-    ──「 Locks 」──
+    ──「 Lᴏᴄᴋs 」──
 
     Do stickers annoy you? or want to avoid people sharing links? or pictures? \
     You're in the right place!
@@ -586,7 +586,7 @@ locks_help: |
     ❂ Unlocking permission *info* will allow members (non-admins) to change the group information, such as the description or the group name
     ❂ Unlocking permission *pin* will allow members (non-admins) to pinned a message in a group
 logchannel_help: |
-    ──「 Log channel 」──
+    ──「 Lᴏɢ Cʜᴀɴɴᴇʟ 」──
 
     ❂ /logchannel*:* get log channel info
     ❂ /setlog*:* set the log channel.
@@ -598,7 +598,7 @@ logchannel_help: |
     ➩ sending /setlog in the channel
     ➩ forwarding the /setlog to the group
 logomarker_help: |
-    ──「 Logo Marker 」──
+    ──「 Lᴏɢᴏ Mᴀʀᴋᴇʀ 」──
     
     This is help menu for logomaker
     ❂ /logo <text/name> - Create a logo with random view.
@@ -607,7 +607,7 @@ logomarker_help: |
     *Image Editor : *
     ❂  /edit <reply photo> - to edit image.
 musicplayer_help: |
-    ──「 Musicplayer 」──
+    ──「 Mᴜsɪᴄᴘʟᴀʏᴇʀ 」──
 
     Help Music can access with different command and support dashboard help and setting.
     ❂ /mhelp - for help music module
@@ -615,7 +615,7 @@ musicplayer_help: |
 
     NOTE : DON'T SPAMMING AT REQUEST SONG OR VIDEO...
 notes_help: |
-    ──「 Notes 」──
+    ──「 Nᴏᴛᴇs 」──
 
     ❂ /get <notename>*:* get the note with this notename
     ❂ #<notename>*:* same as /get
@@ -643,7 +643,7 @@ notes_help: |
 
     *Note:* Note names are case-insensitive, and they are automatically converted to lowercase before getting saved.
 reports_help: |
-    ──「 Report 」──
+    ──「 Rᴇᴘᴏʀᴛ 」──
 
     ❂ /report <reason>*:* reply to a message to report it to admins.
     ❂ @admin*:* reply to a message to report it to admins.
@@ -654,7 +654,7 @@ reports_help: |
     ❂ If done in pm, toggles your status.
     ❂ If in group, toggles that groups's status.
 search_help: |
-    ──「 Search 」──
+    ──「 Sᴇᴀʀᴄʜ 」──
 
     ❂ /google <query>*:* Perform a google search
     ❂ /image <query>*:* Search Google for images and returns them\nFor greater no. of results specify lim, For eg: `/img hello lim=10`
@@ -668,7 +668,7 @@ search_help: |
 
     💡 Ex : `Lorcan where is Japan?`
 stickers_help: |
-    ──「 Stickers 」──
+    ──「 Sᴛɪᴄᴋᴇʀs 」──
 
     *Help menu for stickers tools*
     ❂ /stickerid*:* reply to a sticker to me to tell you its file ID.
@@ -680,7 +680,7 @@ stickers_help: |
     ❂ /kamuii <1-8> *:* To deepefying stiker
     ❂ /mmf <reply with text>*:* To draw a text for sticker or pohots
 tools_help: |
-    ──「 Tools 」──
+    ──「 Tᴏᴏʟs 」──
 
     *Sangmata Info bot*
     ❂ /sg <reply>*:* To check history name
@@ -716,7 +716,7 @@ tools_help: |
     Tagger
     ❂ /tagall : for tag everyone at least 100 member first.
 translator_help: |
-    ──「 Translator 」──
+    ──「 Tʀᴀɴsʟᴀᴛᴏʀ 」──
 
     Use this module to translate stuff!
 
@@ -740,7 +740,7 @@ translator_help: |
       sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
       vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
 warns_help: |
-    ──「 Warns 」──
+    ──「 Wᴀʀɴs 」──
 
     ❂ /warns <userhandle>: get a user's number, and reason, of warns.
     ❂ /warnlist: list of all current warning filters
