@@ -21,12 +21,12 @@ pm_start_text: |
   ✪ Hɪᴛ /help Tᴏ Sᴇᴇ Mʏ Aᴠᴀɪʟᴀʙʟᴇ Cᴏᴍᴍᴀɴᴅs.
    
 group_start_text: |
-  *👋🏻 Hi Darling, I'm Lorcan Robot!*
+  *⚡Hɪ Mʏ Dᴇᴀʀ, I'ᴍ Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ!*
   
   *Started active since :* `{}`
 
 pm_about_text: |
-  ✺ Hey Darling I'm *Lorcan Robot*, a powerful group management bot built to help you manage your group easily. ✺
+  ✺ Hey Dear I'm *Lorcan Robot*, a powerful group management bot built to help you manage your group easily. ✺
 
   ✪ I can restrict users.
   ✪ I can greet users with customizable welcome messages and even set a group's rules.
@@ -83,7 +83,7 @@ group_settings_text: "Click here to get this chat's settings, as well as yours."
 group_settings_button: "Settings"
 
 # PM Button
-add_bot_to_group_button: "♕ Add Me To Your Group ♕"
+add_bot_to_group_button: "🍷 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🍷"
 support_chat_link_button: "Support"
 updates_channel_link_button: "Update"
 notes_button: "Notes"
