@@ -38,9 +38,9 @@ pm_about_text: |
   _Lorcan's licensed under the GNU General Public License v3.0_
   Click on button bellow to get basic help for Lorcan Robot.
 pm_about_admin_text: |
-  *✺ Let's make your group bit effective now ✺*
+  *✺ Lᴇᴛ's Mᴀᴋᴇ Yᴏᴜʀ Gʀᴏᴜᴘ Bɪᴛ Eғғᴇᴄᴛɪᴠᴇ Nᴏᴡ ✺*
 
-  Congragulations, Lorcan Robot now ready to manage your group.
+  Cᴏɴɢʀᴀɢᴜʟᴀᴛɪᴏɴs, Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ Nᴏᴡ Rᴇᴀᴅʏ Tᴏ Mᴀɴᴀɢᴇ Yᴏᴜʀ Gʀᴏᴜᴘ.
 
   *Admin Tools*
   Basic Admin tools help you to protect and powerup your group.
@@ -50,20 +50,20 @@ pm_about_admin_text: |
   Lets set a welcome message to welcome new users coming to your group.
   Send `/setwelcome [message]` to set a welcome message!
 pm_about_notes_text: |
-  *✺ Setting up notes ✺*
+  *✺ Sᴇᴛᴛɪɴɢ Uᴘ Nᴏᴛᴇs ✺*
 
   ✪ You can save message/media/audio or anything as notes to get a note simply use # at the beginning of a word
   ✪ You can also set buttons for notes and filters (refer help menu)
 pm_about_support_text: |
-  *✺ Lorcan Robot support chats ✺*
+  *✺ Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛs ✺*
 
   Join My Support Group/Channel for see or report a problem on Lorcan.
 pm_about_credit_text: |
-  *✺ Credis for Lorcan ✺*
+  *✺ Cʀᴇᴅɪᴛ Fᴏʀ Lᴏʀᴄᴀɴ ✺*
 
   Here Developers Making And Give Inspiration For Made The Lorcan Robot
 pm_help_text: |
-  *✺ Click on the button bellow to get description about specifics command. ✺*
+  *✺ Cʟɪᴄᴋ Oɴ Tʜᴇ Bᴜᴛᴛᴏɴ Bᴇʟʟᴏᴡ Tᴏ Gᴇᴛ Dᴇsᴄʀɪᴘᴛɪᴏɴ Aʙᴏᴜᴛ Sᴘᴇᴄɪғɪᴄs Cᴏᴍᴍᴀɴᴅ. ✺*
 pm_help_module_text: "Here is the help for the *{}* module :\n\n"
 
 # Group Help Text
