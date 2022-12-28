@@ -70,7 +70,7 @@ pm_help_module_text: "Here is the help for the *{}* module :\n\n"
 group_help_text: "» Cᴏɴᴛᴀᴄᴛ Mᴇ ɪɴ PM Tᴏ Gᴇᴛ Tʜᴇ Lɪsᴛ Oғ Pᴏssɪʙʟᴇ Cᴏᴍᴍᴀɴᴅ 🍷."
 group_help_modules_text: "Contact me in PM to get help of *{}*"
 # Group Help Button
-group_help_button: "Help"
+group_help_button: "• 𝐻𝐸𝐿𝑃 •"
 # PM Settings
 pm_settings_personal_text: "These are your current settings: "
 pm_settings_group_text: "Which module would you like to check {}'s settings for?"
