@@ -1,7 +1,7 @@
 # Language name in their native
 language: "English 🇬🇧"
 # name of people(s) who worked on this translation
-authors: "@saint_foire"
+authors: "@lI_EDWARD_Il"
 
 # languages
 curr_chat_lang: "Hey. Your current language is {}, select the one you want from the buttons below :)"
@@ -10,7 +10,7 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 # PM Text
 pm_start_text: |
   *Hᴇʏ Mʏ Dᴇᴀʀ, {} 🥀*
-  ❂ I'ᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Rᴏʙᴏᴛ Wɪᴛʜ Aʀɪsᴛᴏᴄʀᴀᴛɪᴄ  Fᴇᴀᴛᴜʀᴇs , Aʟsᴏ I Cᴀɴ Pʟᴀʏ Lᴀɢ Fʀᴇᴇ Mᴜsɪᴄ Iɴ Yᴏᴜʀ Cʜᴀᴛ.![🍷](https://telegra.ph/file/3732aedecd4539262a9a2.mp4)
+  ❂ I'ᴍ Aɴ Aɴɪᴍᴇ-Tʜᴇᴍᴇ Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ Rᴏʙᴏᴛ Wɪᴛʜ Aʀɪsᴛᴏᴄʀᴀᴛɪᴄ  Fᴇᴀᴛᴜʀᴇs , Aʟsᴏ I Cᴀɴ Pʟᴀʏ Lᴀɢ Fʀᴇᴇ Mᴜsɪᴄ Iɴ Yᴏᴜʀ Cʜᴀᴛ.![🍷ʏᴏᴜʀ ᴇᴅᴡᴀʀᴅ🍷 ](https://t.me/YOUR_EDWARD)
 
   ━━━━━━━━━━━━━━━━━━━━━━━
   ❂ *Sᴇʀᴠᴇʀ Uᴘᴛɪᴍᴇ :* `{}`
@@ -83,15 +83,15 @@ group_settings_text: "Click here to get this chat's settings, as well as yours."
 group_settings_button: "Settings"
 
 # PM Button
-add_bot_to_group_button: "🍷 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🍷"
-support_chat_link_button: "Support"
-updates_channel_link_button: "Update"
+add_bot_to_group_button: "♨️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ♨️"
+support_chat_link_button: "⚡ sᴜᴘᴘᴏʀᴛ ⚡"
+updates_channel_link_button: "✨ ᴜᴘᴅᴀᴛᴇ ✨"
 notes_button: "Notes"
 source_button: "Source Code"
-help_button: "Get Help"
-back_button: "Go back"
-about_button: "About Lorcan Robot"
-inline_button: "Try inline!​​"
+help_button: "💫 ɢᴇᴛ ʜᴇʟᴘ 💫"
+back_button: "🔺ɢᴏ ʙᴀᴄᴋ 🔻"
+about_button: "🍷 Aʙᴏᴜᴛ Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ 🍷"
+inline_button: "⚓ ᴛʀʏ ɪɴʟɪɴᴇ ⚓​​"
 
 # MODULES
 admin_help: |
