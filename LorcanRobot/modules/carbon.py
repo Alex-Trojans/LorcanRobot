@@ -24,7 +24,7 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-MEMEK = "https://telegra.ph/file/775c6cdc21cbd514ec92c.jpg"
+MEMEK = "https://telegra.ph/file/6b2eaf382c90cd4b40418.jpg"
 
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
@@ -46,7 +46,7 @@ async def repo(_, message):
                     InlineKeyboardButton(
                         "♨️ ʀᴇᴘᴏ ♨️", url="https://github.com/EDWARD-ELRIC/LorcanRobot"), 
                     InlineKeyboardButton(
-                        "♨️ ᴇᴅᴡᴀʀᴅ ♨️", url="https://t.me/YOUR_EDWARD")
+                        "🍷 ᴇᴅᴡᴀʀᴅ 🍷", url="https://t.me/YOUR_EDWARD")
                 ]
             ]
         )
