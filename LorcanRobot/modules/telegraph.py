@@ -1,4 +1,4 @@
-from Yone import telethn as tbot
+from lorcan import telethn as tbot
 
 TMP_DOWNLOAD_DIRECTORY = "./"
 
