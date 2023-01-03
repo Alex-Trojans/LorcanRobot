@@ -119,19 +119,19 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[Lorcan Robot ❤️](https://t.me/machinaxsupport):**
-**MainBot:** `{bot_state}`
-**Python:** `{pyver.split()[0]}`
-**Pyrogram:** `{pyrover}`
-**MongoDB:** `{mongover}`
-**Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [OWNER BOT](t.me/saint_foire)
+**[Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ 🍷](https://t.me/DARK_COUNCIL):**
+**๏ MᴀɪɴBᴏᴛ:** `{bot_state}`
+**๏ Pʏᴛʜᴏɴ:** `{pyver.split()[0]}`
+**๏ Pʏʀᴏɢʀᴀᴍ:** `{pyrover}`
+**๏ Mᴏɴɢᴏ DB:** `{mongover}`
+**๏ Pʟᴀᴛғᴏʀᴍ:** `{sys.platform}`
+**๏ Pʀᴏғɪʟᴇs:** [ʀᴏʙᴏᴛ](t.me/{BOT_USERNAME}) | [ʙᴏᴛ ᴏᴡɴᴇʀ](t.me/lI_EDWARD_Il)
 """
     answers.append(
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/5755d25e718851cdecacb.jpg",
+            thumb_url="https://telegra.ph/file/1c1d3914a86a96a363b44.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
