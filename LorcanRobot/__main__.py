@@ -383,12 +383,12 @@ def Lorcan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Admins", callback_data="Lorcan_admin"),
+                        InlineKeyboardButton(text="🍾 ᴀᴅᴍɪɴs 🍾", callback_data="Lorcan_admin"),
                         InlineKeyboardButton(text=gs(chat.id, "notes_button"), callback_data="Lorcan_notes"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), callback_data="Lorcan_support"),
-                        InlineKeyboardButton(text="Credits", callback_data="Lorcan_credit"),
+                        InlineKeyboardButton(text="🥂 ᴄʀᴇᴅɪᴛs 🥂 ", callback_data="Lorcan_credit"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://github.com/EDWARD-ELRIC39/LorcanRobot"),
