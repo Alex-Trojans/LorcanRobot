@@ -84,10 +84,10 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-Lorcan_IMG = "https://telegra.ph/file/f0bc69104d568bc78f754.jpg"
+Lorcan_IMG = "https://te.legra.ph/file/a53d88289d3b96f07e6f0.jpg"
 
 DONATE_STRING = """Hᴇʏ, Gʟᴀᴅ Tᴏ Hᴇᴀʀ Yᴏᴜ Wᴀɴᴛ Tᴏ Dᴏɴᴀᴛᴇ!
- Yᴏᴜ Cᴀɴ Sᴜᴘᴘᴏʀᴛ Tʜᴇ Pʀᴏᴊᴇᴄᴛ Bʏ Cᴏɴᴛᴀᴄᴛɪɴɢ @lI_EDWARD_Il 🍷 \
+ Yᴏᴜ Cᴀɴ Sᴜᴘᴘᴏʀᴛ Tʜᴇ Pʀᴏᴊᴇᴄᴛ Bʏ Cᴏɴᴛᴀᴄᴛɪɴɢ @THE_URANIUM 🍷 \
  Sᴜᴘᴘᴏʀᴛɪɴɢ Isɴ'ᴛ Aʟᴡᴀʏs Fɪɴᴀɴᴄɪᴀʟ! \
  Tʜᴏsᴇ Wʜᴏ Cᴀɴɴᴏᴛ Pʀᴏᴠɪᴅᴇ Mᴏɴᴇᴛᴀʀʏ Sᴜᴘᴘᴏʀᴛ Aʀᴇ Wᴇʟᴄᴏᴍᴇ Tᴏ Hᴇʟᴘ Us Dᴇᴠᴇʟᴏᴘ Tʜᴇ ʙᴏᴛ ᴀᴛ ."""
 
@@ -478,7 +478,7 @@ def Lorcan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Edward", url="https://github.com/EDWARD-ELRIC39"),
+                        InlineKeyboardButton(text="URANIUM", url="https://t.me/THE_URANIUM"),
                     ],
                     [
                         InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
@@ -768,9 +768,9 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 945137470:
+        if OWNER_ID != 5267349380:
             update.effective_message.reply_text(
-                "I'm free for everyone ❤️ If you wanna make me smile, just join"
+                "I'ᴍ ғʀᴇᴇ ғᴏʀ ᴇᴠᴇʀʏᴏɴᴇ 🍷 Iғ ʏᴏᴜ ᴡᴀɴɴᴀ ᴍᴀᴋᴇ ᴍᴇ sᴍɪʟᴇ, ᴊᴜsᴛ ᴊᴏɪɴ"
                 "[My Channel]({})".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
@@ -784,11 +784,11 @@ def donate(update: Update, context: CallbackContext):
             )
 
             update.effective_message.reply_text(
-                "I've PM'ed you about donating to my creator!"
+                "ɪ'ᴠᴇ ᴘᴍ'ᴇᴅ ʏᴏᴜ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪɴɢ ᴛᴏ ᴍʏ ᴄʀᴇᴀᴛᴏʀ!"
             )
         except Unauthorized:
             update.effective_message.reply_text(
-                "Contact me in PM first to get donation information."
+                "ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ғɪʀsᴛ ᴛᴏ ɢᴇᴛ ᴅᴏɴᴀᴛɪᴏɴ ɪɴғᴏʀᴍᴀᴛɪᴏɴ."
             )
 
 
@@ -817,7 +817,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Yᴇs Dᴇᴀʀ 🍷, I Aᴍ Aᴄᴛɪᴠᴀᴛᴇᴅ!**""",
+                f"""**ʏᴇs ᴍʏ ᴅᴇᴀʀ 🍷, ɪ ᴀᴍ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ⚡!**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
