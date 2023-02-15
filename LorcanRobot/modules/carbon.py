@@ -32,21 +32,21 @@ async def repo(_, message):
         photo=MEMEK,
         caption=f"""✨ **Hᴇʏ I'ᴍ Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ** ✨ 
 
-**Oᴡɴᴇʀ Rᴇᴘᴏ : [ᴇᴅᴡᴀʀᴅ ᴇʟʀɪᴄ ](https://t.me/lI_EDWARD_Il)**
+**Oᴡɴᴇʀ Rᴇᴘᴏ : [Aɢᴇsɪʟᴀᴜs](https://t.me/Agesilaus)**
 **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{y()}`
 **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{o}`
 **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{s}`
 **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{z}`
 
-**ᴄʀᴇᴀᴛᴇ ʏᴏᴜʀ ᴏᴡɴ ᴡɪᴛʜ ᴄʟɪᴄᴋ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ.🍷**
+**ʟᴏᴠᴇ ᴍᴇ ᴏʀ ʜᴀᴛᴇ ᴍᴇ , ɪ’ᴍ sᴛɪʟʟ ɢᴏɴɴᴀ sʜɪɴᴇ.🍷**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "♨️ ʀᴇᴘᴏ ♨️", url="https://github.com/EDWARD-ELRIC/LorcanRobot"), 
+                        "• ᴄʜᴀᴛ •", url="https://t.me/Agesilaus_chats"), 
                     InlineKeyboardButton(
-                        "🍷 ᴇᴅᴡᴀʀᴅ 🍷", url="https://t.me/YOUR_EDWARD")
+                        "• ᴄʜᴀɴɴᴇʟ •", url="https://t.me/iAgesilaus")
                 ]
             ]
         )
