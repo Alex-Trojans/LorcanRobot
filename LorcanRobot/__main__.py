@@ -84,10 +84,10 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-Lorcan_IMG = "https://te.legra.ph/file/a53d88289d3b96f07e6f0.jpg"
+Lorcan_IMG = ""
 
 DONATE_STRING = """Hᴇʏ, Gʟᴀᴅ Tᴏ Hᴇᴀʀ Yᴏᴜ Wᴀɴᴛ Tᴏ Dᴏɴᴀᴛᴇ!
- Yᴏᴜ Cᴀɴ Sᴜᴘᴘᴏʀᴛ Tʜᴇ Pʀᴏᴊᴇᴄᴛ Bʏ Cᴏɴᴛᴀᴄᴛɪɴɢ @THE_URANIUM 🍷 \
+ Yᴏᴜ Cᴀɴ Sᴜᴘᴘᴏʀᴛ Tʜᴇ Pʀᴏᴊᴇᴄᴛ Bʏ Cᴏɴᴛᴀᴄᴛɪɴɢ @Agesilaus 🍷 \
  Sᴜᴘᴘᴏʀᴛɪɴɢ Isɴ'ᴛ Aʟᴡᴀʏs Fɪɴᴀɴᴄɪᴀʟ! \
  Tʜᴏsᴇ Wʜᴏ Cᴀɴɴᴏᴛ Pʀᴏᴠɪᴅᴇ Mᴏɴᴇᴛᴀʀʏ Sᴜᴘᴘᴏʀᴛ Aʀᴇ Wᴇʟᴄᴏᴍᴇ Tᴏ Hᴇʟᴘ Us Dᴇᴠᴇʟᴏᴘ Tʜᴇ ʙᴏᴛ ᴀᴛ ."""
 
@@ -383,15 +383,15 @@ def Lorcan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="🍾 ᴀᴅᴍɪɴs 🍾", callback_data="Lorcan_admin"),
+                        InlineKeyboardButton(text="🥀 ᴀᴅᴍɪɴs 🥀", callback_data="Lorcan_admin"),
                         InlineKeyboardButton(text=gs(chat.id, "notes_button"), callback_data="Lorcan_notes"),
                     ],
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), callback_data="Lorcan_support"),
+                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), callback_data="Lorcan_x_support"),
                         InlineKeyboardButton(text="🥂 ᴄʀᴇᴅɪᴛs 🥂 ", callback_data="Lorcan_credit"),
                     ],
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://github.com/EDWARD-ELRIC39/LorcanRobot"),
+                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://t.me/Agesilaus_chats"),
                     ],
                     [
                     InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="Lorcan_back"),
@@ -478,11 +478,11 @@ def Lorcan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="URANIUM", url="https://t.me/THE_URANIUM"),
+                        InlineKeyboardButton(text="🍂 ᴀɢᴇsɪʟᴀᴜs 🍂", url="https://t.me/Agesilaus"),
                     ],
                     [
-                        InlineKeyboardButton(text="Paul Larsen", url="https://github.com/PaulSonOfLars"),
-                        InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
+
+
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="Lorcan_"),
