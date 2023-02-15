@@ -387,7 +387,7 @@ def Lorcan_about_callback(update, context):
                         InlineKeyboardButton(text=gs(chat.id, "notes_button"), callback_data="Lorcan_notes"),
                     ],
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), callback_data="Lorcan_x_support"),
+                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), callback_data="Lorcansupport"),
                         InlineKeyboardButton(text="🥂 ᴄʀᴇᴅɪᴛs 🥂 ", callback_data="Lorcan_credit"),
                     ],
                     [
