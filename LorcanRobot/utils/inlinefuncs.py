@@ -119,13 +119,13 @@ async def alive_function(answers):
     )
 
     msg = f"""
-**[Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ 🍷](https://t.me/DARK_COUNCIL):**
+**[Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ 🍷](https://t.me/YOUR_URANIUM):**
 **๏ MᴀɪɴBᴏᴛ:** `{bot_state}`
 **๏ Pʏᴛʜᴏɴ:** `{pyver.split()[0]}`
 **๏ Pʏʀᴏɢʀᴀᴍ:** `{pyrover}`
 **๏ Mᴏɴɢᴏ DB:** `{mongover}`
 **๏ Pʟᴀᴛғᴏʀᴍ:** `{sys.platform}`
-**๏ Pʀᴏғɪʟᴇs:** [ʀᴏʙᴏᴛ](t.me/{BOT_USERNAME}) | [ʙᴏᴛ ᴏᴡɴᴇʀ](t.me/lI_EDWARD_Il)
+**๏ Pʀᴏғɪʟᴇs:** [ʀᴏʙᴏᴛ](t.me/{BOT_USERNAME}) | [ʙᴏᴛ ᴏᴡɴᴇʀ](t.me/Agesilaus)
 """
     answers.append(
         InlineQueryResultArticle(
