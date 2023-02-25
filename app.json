@@ -1,5 +1,6 @@
 {
       "name": "Lorcan Robot",
+      "logo":    "https://telegra.ph/file/b91087e534f517e21a032.jpg.",  
       "description": "A Powerful Telegram group management bot with anime theme.",
       "keywords": [
          "telegram",
@@ -8,9 +9,8 @@
          "manager",
          "naorobot"
       ],
-    
-   "logo":    "https://telegra.ph/file/b91087e534f517e21a032.jpg.",  
-   "repository": "https://github.com/EDWARD-ELRIC/https://github.com/EDWARD-ELRIC/LorcanRobot",
+   "repository": "https://github.com/EDWARD-ELRIC/https://github.com/EDWARD-ELRIC/LorcanRobot",  
+   "stack": "heroku-22",    
    "addons": [
           {
          "options": {
@@ -210,7 +210,6 @@
          "description": "Required for remove background editing. Get your's from https://www.remove.bg/api#remove-background/",
          "required": false,
          "value": ""
-      }
-      
+      }      
    }
 }
