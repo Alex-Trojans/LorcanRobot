@@ -11,7 +11,7 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
 
-    API_ID = 
+    API_ID = ""
     API_HASH = ""
     ARQ_API_KEY = ""
     ARQ_API_URL = ""
