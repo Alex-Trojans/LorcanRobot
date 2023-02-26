@@ -36,12 +36,12 @@
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "26504178"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "74bc86eb6fca5cfc41ab1667e8dd4512"
+         "value": "c0ceb37c1950f121188f7fc1186e98cc"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
@@ -63,7 +63,7 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "Lorcan_x_robot"
+         "value": "Lorcan_x_testbot"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
@@ -72,7 +72,7 @@
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "lorcan_x_support"
+         "value": "Agesilaus_chats"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
@@ -90,12 +90,12 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001343176320"
+         "value": "-1001881419980"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001343176320"
+         "value": "-1001881419980"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
