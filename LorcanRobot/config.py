@@ -18,7 +18,7 @@ class Config(object):
     TOKEN = ""
     ALLOW_CHATS = True
 
-    OWNER_ID = 
+    OWNER_ID = ""
     OWNER_USERNAME = ""
     SUPPORT_CHAT = ""
     JOIN_LOGGER = ()  
