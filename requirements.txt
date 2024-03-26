@@ -84,3 +84,4 @@ img2pdf
 multicolorcaptcha
 glitch-this
 pyYAML>=5.1.2
+pyrate_limiter
