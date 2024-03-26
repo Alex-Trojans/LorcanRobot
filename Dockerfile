@@ -1,5 +1,5 @@
 FROM debian:11
-FROM python:3.10.1-slim-buster
+FROM python:3.12.2-slim-buster
 
 WORKDIR /LorcanRobot/
 
