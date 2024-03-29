@@ -1,5 +1,5 @@
 <h2 align="center">
-    ──「 Alex Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ Is A Mᴏᴅᴜʟᴇʀ Bᴏᴛ Wɪᴛʜ Aɴɪᴍᴇ Tʜᴇᴍᴇ Aɴᴅ  Bᴇsᴛ Fᴇᴀᴛᴜʀᴇs」──
+    ──「 Hitesh Lᴏʀᴄᴀɴ Rᴏʙᴏᴛ Is A Mᴏᴅᴜʟᴇʀ Bᴏᴛ Wɪᴛʜ Aɴɪᴍᴇ Tʜᴇᴍᴇ Aɴᴅ  Bᴇsᴛ Fᴇᴀᴛᴜʀᴇs」──
 </h2>
 
 <p align="center">
